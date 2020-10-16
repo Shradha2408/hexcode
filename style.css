@@ -1,0 +1,25 @@
+
+    h1{
+        color: #ff6600;
+        font-family: cursive;
+
+    }
+    
+    *{
+        background-color: #48C9B0
+    }
+    .header{
+       
+        display:flex;
+        justify-content: space-evenly ;
+        flex-direction: column-reverse;
+    }
+    .images{
+        display:flex;
+        justify-content:flex-end;
+    }
+    .myprojects{
+        display:flex;
+        flex-wrap: wrap-reverse;
+        align-items: flex-start;
+    }
